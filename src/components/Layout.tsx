@@ -12,7 +12,7 @@ const Layout = ({ children }: PropsWithChildren) => {
           <Sidebar />
         </div>
 
-        <div className="flex-grow">{children}</div>
+        <div className="flex-grow overflow-hidden">{children}</div>
       </main>
       <Footer />
 
